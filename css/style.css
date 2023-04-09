@@ -1,3 +1,15 @@
-
-
+@font-face {
+  font-family: OpenSan;
+  src: url("../fonts/OpenSans-Italic.woff2");
+}
+@font-face {
+  font-family: Bodoni;
+  src: url("../fonts/BodoniFLF-Bold.woff2");
+}
+#hieu{
+    font-family: OpenSan;
+}
+#hieu1{
+    font-family: Bodoni;
+}
 /*# sourceMappingURL=style.css.map */
