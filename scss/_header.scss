@@ -1,5 +1,5 @@
 
-.header{
+.header {
     background-image: url(../images/Landing-Page-Hai-Phong_3.jpg);
     padding: 45px;
 }
@@ -24,47 +24,57 @@
     text-align: center;
     text-transform: uppercase;
     color:#ffffff;
-    h2{
+
+    h2 {
         font-size: 32px;
     }
-    h1{
+
+    h1 {
 
         font-family: Bodoni;
         font-size: 48px;
     }
-    h3{
+
+    h3 {
         font-size: 24px;
     }
-    .header_content-top{
+
+    .header_content-top {
         position: relative;
         margin-bottom:80px;
     }
-    .header_content-top::after{
+
+    .header_content-top::after {
         width: 50px;
+        transform: translateX(-50%);
         content: "";
-        height: 42px;
         background-color: #fff;
         position: absolute;
         height: 3px;
-    }
-    .header__content-bottom{
-        h3{
+    } 
+
+    .header__content-bottom {
+
+        h3 {
             font-weight: lighter;
         }
-        strong{
+
+        strong { 
             display: block;
             margin: 0 auto;
             max-width: 460px;
             line-height: 1.7;
         }
-        ul{
+
+        ul {
             display: flex;
             text-decoration: none;
             align-content: center;
             justify-content: center;
             margin:40px;
         }
-        li{
+
+        li {
             display: flex;
             list-style-type: none;
             border: 3px solid #fff;
@@ -73,25 +83,30 @@
             font-family: Bodoni;
             font-weight: bold;
         }
-        li:last-child{
+
+        li:last-child {
             margin-left:15px;
             font-size: 16px;
         }
-        li:nth-child(2){
+
+        li:nth-child(2) {
             border-left: 0px;
             padding:0;
-            .sale{
+
+            .sale {
                 background-color: #ffffff;
                 color: #000000;
                 padding: 5px 25px;
                 font-size: 28px;
             }
-            .cost{
+
+            .cost {
                 padding: 0 25px;
                 font-size: 20px;
             }
         }
-        span{
+        
+        span {
             text-transform: none;
             padding-top:50px;
         }
