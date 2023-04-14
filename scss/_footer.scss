@@ -1,0 +1,29 @@
+.footer {
+    background-color: #653263;
+}
+.container__footer {
+    font-family: OpenSan;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    ul {
+        padding-left:0;
+        margin: 10px 0;
+    }
+    h4{
+        margin: 0 5px;
+    }
+    li {
+        font-size: 14px;
+        list-style-type: none;
+        padding:3px;
+    }
+
+}
+.footer-right{
+    text-align: end;
+    li:first-child{
+        font-weight: bold;
+    }
+}

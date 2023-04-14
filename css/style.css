@@ -343,4 +343,35 @@ html {
   padding-bottom: 10px;
 }
 
+.footer {
+  background-color: #653263;
+}
+
+.container__footer {
+  font-family: OpenSan;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.container__footer ul {
+  padding-left: 0;
+  margin: 10px 0;
+}
+.container__footer h4 {
+  margin: 0 5px;
+}
+.container__footer li {
+  font-size: 14px;
+  list-style-type: none;
+  padding: 3px;
+}
+
+.footer-right {
+  text-align: end;
+}
+.footer-right li:first-child {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
