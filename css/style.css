@@ -12,7 +12,6 @@ a {
 
 .header {
   background-image: url(../images/Landing-Page-Hai-Phong_3.jpg);
-  height: 600px;
   padding: 45px;
 }
 
@@ -166,6 +165,28 @@ html {
 .advantage__item .item__desc {
   font-size: 18px;
   color: #ad7ca3;
+}
+
+.history {
+  background-image: url(../images/Landing-Page-Hai-Phong_4.jpg);
+  background-size: cover;
+  padding: 250px 40px 100px;
+  color: #fff;
+}
+
+.history__container {
+  width: 40%;
+}
+.history__container h2 {
+  font-family: Bodoni;
+  line-height: 1.5;
+  font-size: 34px;
+  font-weight: lighter;
+}
+.history__container p {
+  font-family: OpenSan;
+  font-weight: lighter;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
