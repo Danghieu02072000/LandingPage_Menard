@@ -3,7 +3,7 @@
 }
 .container__footer {
     font-family: OpenSan;
-    padding: 50px 0;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -26,4 +26,21 @@
     li:first-child{
         font-weight: bold;
     }
+}
+.footer__copyright{
+    color:#fff;
+    padding-bottom: 40px;
+    font-family: OpenSan;
+    font-size: 14px;
+    position: relative;
+}
+.footer__copyright::after{
+    width: 30px;
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    // transform: translate(-40%,8px);
+    height: 6px;
+    left: 0;
+    top:-10px;
 }

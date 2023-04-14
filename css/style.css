@@ -13,6 +13,7 @@ a {
 .header {
   background-image: url(../images/Landing-Page-Hai-Phong_3.jpg);
   padding: 45px;
+  padding-top: 0;
 }
 
 .header-logo {
@@ -21,18 +22,58 @@ a {
   align-items: center;
 }
 
+.header_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+.header_icon h3 {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #fff;
+  font-weight: lighter;
+}
+.header_icon img {
+  height: 17px;
+  border-radius: 100rem;
+}
+
 .menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 0 80px;
+  gap: 0 50px;
 }
 
 .menu-link {
   color: #ffffff;
   font-family: OpenSan;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 300;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link::after {
+  width: 2px;
+  content: "";
+  height: 25px;
+  background-color: #d7d7d7;
+  position: absolute;
+  right: -25px;
+}
+
+.menu-link:nth-child(3)::after {
+  width: 0px;
+  content: "";
+  height: 25px;
+  background-color: #d7d7d7;
+  position: absolute;
+  right: -25px;
 }
 
 .header__content {
@@ -108,6 +149,32 @@ a {
 .header__content .header__content-bottom span {
   text-transform: none;
   padding-top: 50px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #755b64;
+}
+
+.header__regist {
+  background-color: #7a4077;
+  padding: 8px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.header__regist h3 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: OpenSan;
+  font-size: 14px;
 }
 
 a {
@@ -349,7 +416,7 @@ html {
 
 .container__footer {
   font-family: OpenSan;
-  padding: 50px 0;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -372,6 +439,24 @@ html {
 }
 .footer-right li:first-child {
   font-weight: bold;
+}
+
+.footer__copyright {
+  color: #fff;
+  padding-bottom: 40px;
+  font-family: OpenSan;
+  font-size: 14px;
+  position: relative;
+}
+
+.footer__copyright::after {
+  width: 30px;
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  height: 6px;
+  left: 0;
+  top: -10px;
 }
 
 /*# sourceMappingURL=style.css.map */
