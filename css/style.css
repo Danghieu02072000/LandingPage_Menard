@@ -459,7 +459,68 @@ html {
   top: -10px;
 }
 
-@media only screen and (max-width: 400px) {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #ad7ca3;
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 100;
+  transition: all linear 0.5s;
+}
+
+#togger {
+  display: none;
+}
+
+.nav__button {
+  display: none;
+}
+
+.navbar__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.nav__menu {
+  height: 100%;
+}
+
+.nav__list {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 0;
+}
+.nav__list li {
+  list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#togger:checked ~ .navbar {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.nav__close {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 500px) {
   .container {
     width: 90%;
     margin: 0 auto;
@@ -636,6 +697,9 @@ html {
     height: 4px;
     left: 0;
     top: -10px;
+  }
+  .nav__button {
+    display: block;
   }
 }
 
