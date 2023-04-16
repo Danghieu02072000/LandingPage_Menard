@@ -9,20 +9,22 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" id="link__header">
             <div class="container">
                 <div class="header__top">
                     <div class="header_logo">
-                        <img src="./images/Logo-01.png" alt="">
+                        <a href="#link__header">
+                            <img src="./images/Logo-01.png" alt="">
+                        </a>
                         <ul class="menu">
                             <li class="menu-item">
-                                <a href="#" class="menu-link">Dịch Vụ</a>
+                                <a href="#link_advantage" class="menu-link">Dịch Vụ</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="menu-link">Lịch sử thương hiệu</a>
+                                <a href="#link_history" class="menu-link">Lịch sử thương hiệu</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="menu-link">Chương Trình</a>
+                                <a href="#link_register" class="menu-link">Chương Trình</a>
                             </li>
                         </ul>
                         <div class="header_icon">
@@ -36,12 +38,15 @@
                 </div>
                 <label for="togger" class="nav__button"><img src="/images/icon.png"></label>
                 <input type='checkbox' id="togger">
+                <div class="header__overlay"></div>
                 <nav class='navbar'>
                     <div class="nav__menu">
+                        <img class="nav__logo"src="./images/Logo-01.png" alt="">
                       <ul class="nav__list">
-                        <li><a class="nav__link" href="#">Home</a></li>
-                        <li><a class="nav__link" href="#">About</a></li>
-                        <li><a class="nav__link" href="#">Contact</a></li>
+                        <li><a class="nav__link" href="#link_advantage">Dịch vụ</a></li>
+                        <li><a class="nav__link" href="#link_history">Lịch sử thương hiệu</a></li>
+                        <li><a class="nav__link" href="#link_register">Chương trình</a></li>
+                        <li><a class="nav__link" href="#link__header"> <img src="./images/icon_fb.jpg" alt=""> Menard VietNam</a></li>
                       </ul>
                       <label for="togger" class="navbar__close"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
@@ -89,7 +94,7 @@
                 </div>
             </div>
         </header>
-        <section class="advantage">
+        <section class="advantage" id="link_advantage">
             <div class="container">
                 <h2 class="advantage__title">
                     Ưu Điểm Dịch vụ Làm Trắng Và Trị Nám MDV105
@@ -97,7 +102,7 @@
                 <div class="advantage__content">
                     <div class="advantage__item">
                         <div class="item__img">
-                            <img src="./images/avatar2.png" alt="">
+                            <img src="./images/scan_1.png" alt="">
                         </div>
                         <h3 class="item__title">Kỹ Thuật <b>ấm Huyệt SHIATSU</b></h3>
                         <span class="item__desc">
@@ -106,7 +111,7 @@
                     </div>
                     <div class="advantage__item">
                         <div class="item__img">
-                            <img src="./images/avatar2.png" alt="">
+                            <img src="./images/scan_2.png" alt="">
                         </div>
                         <h3 class="item__title">MẶT NẠ KÉP TẢO BIỂN
                             <b>MENARD WHITENING PACK AD VÀ
@@ -118,7 +123,7 @@
                     </div>
                     <div class="advantage__item">
                         <div class="item__img">
-                            <img src="./images/avatar2.png" alt="">
+                            <img src="./images/scan_3.png" alt="">
                         </div>
                         <h3 class="item__title">
                             DÒNG SẢN PHẨM <br>
@@ -131,7 +136,7 @@
                 </div>
             </div>
         </section>
-        <section class="history">
+        <section class="history" id="link_history">
             <div class="container">
                 <div class="history__container">
                     <h2>HƠN NỬA THẾ KỈ
@@ -151,7 +156,7 @@
                 </div>
             </div>
         </section>
-        <section class="register">
+        <section class="register"id="link_register">
             <div class="container">
                 <div class="container__register">
                     <div class="register__left">

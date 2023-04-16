@@ -33,6 +33,13 @@
     list-style: none;
     gap:0 50px;
 }
+.menu{
+    .menu-item{
+        a{
+            transition: all 0.3s ease-in-out 0s;
+        }
+    }
+}
 .menu-link {
     color: #ffffff;
     font-family: OpenSan;
